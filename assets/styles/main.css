@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Proxima';
+  src: url("../fonts/proxima.ttf");
+}
+
+@font-face {
+  font-family: 'ProximaLight';
+  src: url("../fonts/proxima-light.ttf");
+}
+
+@font-face {
+  font-family: 'SofiaBold';
+  src: url('../fonts/SofiaProBold.ttf');
+}
+
+@font-face {
+  font-family: 'SofiaRegular';
+  src: url('../fonts/SofiaProMedium.ttf');
+}
+
+:root {
+  --background: #FFFFFF;
+  --main-color: #FE2B53;
+  --secondary-color: #E4E0E1;
+  --checked-color: #4ECAD6;
+  --black-color: #161A23;
+  --gray-color: #F8F8F8;
+  --darker-gray-color: #F1F1F2;
+  --silver-color: #BCBCBC;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--main-color);
+  color: #fff;
+  font-family: 'Proxima';
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  filter: brightness(.95);
+}
+
+/* Icons Style */
+.icons:hover {
+  cursor: pointer;
+}
+/* End Icons Style */
